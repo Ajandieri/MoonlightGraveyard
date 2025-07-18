@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="app-wrapper">
+        <div id="game-container">
+            <canvas id="game-canvas" width="1000" height="600" aria-label="Adventure Game Screen"></canvas>
+            <div id="controls-guide" class="hidden"></div>
+        </div>
+        <div id="start-menu">
+            <h1 id="game-title">Moonlight Graveyard</h1>
+            <button id="start-button">Start Game</button>
+            <div id="language-selector">
+                <p id="language-selector-label">Choose language:</p>
+                <div id="language-options">
+                    <div class="language-option selected" data-lang="en">
+                        <span class="bullet">&bull;</span>
+                        <span class="lang-text">English</span>
+                    </div>
+                    <div class="language-option" data-lang="ka">
+                        <span class="bullet">&bull;</span>
+                        <span class="lang-text">ქართული</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
